@@ -1,0 +1,36 @@
+export const InfoData = [
+  {
+    id: "1",
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: "React Library",
+    headLine: "React Router",
+    description:
+      "react-router-dom is one of the most popular routing library for react. Although it's a third party library but most of the programmer use this to route their page in react.js and make the website SPA(Single Page Application).",
+    buttonLabel: "Get Started",
+    imgStart: false,
+    img: require("../../images/info-1.svg"),
+    alt: "React Router",
+    dark: true,
+    primary: true,
+    darkText: false,
+  },
+  {
+    id: "2",
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: "React Library",
+    headLine: "React Icons",
+    description:
+      "Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.",
+    buttonLabel: "",
+    imgStart: true,
+    img: require("../../images/info-2.svg"),
+    alt: "React Icons",
+    dark: true,
+    primary: true,
+    darkText: true,
+  },
+];
